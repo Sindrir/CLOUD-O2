@@ -10,15 +10,20 @@ import (
 func main () {
 
 	port := os.Getenv("PORT")
+
 	if port == "" {
-		log.Fatal("Found no port!")
-		return
+		port = "8080"
 	}
+
+	log.Printf("Initializing handlers...")
 
 	http.HandleFunc(COMMITS_PATH, CO2Handlers.CommitsHandler)
 	http.HandleFunc(LANGUAGES_PATH, CO2Handlers.LanguagesHandler)
 	http.HandleFunc(ISSUES_PATH, CO2Handlers.IssuesHandler)
 	http.HandleFunc(STATUS_PATH, CO2Handlers.StatusHandler)
-	
+
+	log.Printf("Running server...")
+
 	http.ListenAndServe(":" + port, nil)
+
 }
