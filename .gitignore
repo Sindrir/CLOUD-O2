@@ -22,3 +22,7 @@
 
 # IDE folder
 .idea
+
+# Access Token
+.access
+
