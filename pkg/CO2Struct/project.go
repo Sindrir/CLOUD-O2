@@ -1,5 +1,17 @@
 package CO2Struct
 
+type Commits struct {
+	ID                int64  `json:"id"`
+	PathWithNamespace string `json:"path_with_namespace"`
+	Repos             int64  `json:"commits"`
+}
+
+type Project struct {
+	Repos [] 			Commits `json:"repos"`
+	Auth  bool                  `json:"auth"`
+}
+
+/*
 type Project struct {
 	ID					int64				`json:"id"`
 	Description			string				`json:"description"`
@@ -20,7 +32,7 @@ type Project struct {
 	LastActivityAt		string				`json:"last_activity_at"`
 	Namespace			ProjectNamespace	`json:"namespace"`
 }
-
+*/
 type ProjectNamespace struct {
 	ID					int64				`json:"id"`
 	Name				string				`json:"name"`
