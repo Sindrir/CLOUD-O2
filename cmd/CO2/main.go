@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/NTNU-sondrbaa-2019/CLOUD-O2/pkg/CO2Handlers"
+	"github.com/Sindrir/CLOUD-O2/pkg/CO2Handlers"
 	"log"
 	"net/http"
 	"os"

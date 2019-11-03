@@ -2,7 +2,7 @@ package CO2Handlers
 
 import (
 	"encoding/json"
-	"github.com/NTNU-sondrbaa-2019/CLOUD-O2/pkg/CO2Struct"
+	"github.com/Sindrir/CLOUD-O2/pkg/CO2Struct"
 	"io/ioutil"
 	"log"
 	"net/http"
