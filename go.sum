@@ -1,4 +1,6 @@
 github.com/HouzuoGuo/tiedot v0.0.0-20190123063644-be8ab1f1598e h1:ZlkqcGyUHfuEnRRUbjFQBSiPceYOwMxcXiiEQ2dzWdg=
 github.com/HouzuoGuo/tiedot v0.0.0-20190123063644-be8ab1f1598e/go.mod h1:J2FcoVwTshOscfh8D4LCCVRoHJJQTeCAEkeRSVGnLQs=
+github.com/Sindrir/CLOUD-O2 v0.0.0-20191102165100-b0c05ae4323f h1:NiTvKGL2wLto1sELVq/KSn0HdAjcUVgmksujk7mCW7w=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/sindrir/CLOUD-O2 v0.0.0-20191102165100-b0c05ae4323f h1:ENJf4WzVhFqD1nh0GJRzGg3CA2Xl0e5cxDK94jJ1OEI=
